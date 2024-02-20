@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+  <!-- Background -->
+  <div class="min-h-screen bg-0A0C1C flex justify-center items-center">
+    <!-- Component -->
+    <div class="bg-1B1937 flex flex-col max-w-[350px] my-16 mx-5 lg:flex-row-reverse lg:max-w-[1000px] lg:max-h-[450px] rounded-xl">
+      <!--Upper Side -->
+      <div class="relative lg:w-1/2">
+        <img class="rounded-t-xl lg:rounded-none lg:rounded-r-xl" src="images/image-header-desktop.jpg" alt="image header">
+        <div class="rounded-t-xl lg:rounded-none lg:rounded-r-xl absolute w-full h-full bg-AB5CDB top-0 mix-blend-multiply"></div>
+      </div>
+      <!-- Lower Side -->
+      <div class="px-5 py-10 lg:w-1/2 lg:flex lg:flex-col lg:gap-14 lg:p-14">
+        <!-- Description -->
+        <div class="text-white space-y-5 text-center lg:text-start">
+          <h1 class="text-3xl font-bold lg:text-4xl">Get <span class="text-AB5CDB">insights</span> that help your business grow.</h1>
+          <p CLASS="text-[15px] opacity-75">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        </div>
+        <!-- Figures -->
+        <div class="text-white text-center space-y-5 mt-5 lg:space-y-0 lg:flex lg:justify-between lg:items-center lg:text-start">
+          <div>
+            <p class="text-2xl  font-bold">10k+</p>
+            <p class="font-lexend text-xs tracking-widest opacity-60">COMPANIES</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold">314</p>
+            <p class="font-lexend text-xs tracking-widest opacity-60">TEMPLATES</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold">12M+</p>
+            <p class="font-lexend text-xs tracking-widest opacity-60">QUERIES</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
